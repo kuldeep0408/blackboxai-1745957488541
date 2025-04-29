@@ -1,0 +1,27 @@
+name: khojo_app
+description: Khojo App - Lost and Found Items
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.1
+  cloud_firestore: ^4.5.0
+  google_sign_in: ^5.4.2
+  fluttertoast: ^8.2.1
+  flutter_local_notifications: ^12.0.4
+  google_maps_flutter: ^2.2.5
+  image_picker: ^0.8.7+4
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
